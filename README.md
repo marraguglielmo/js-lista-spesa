@@ -7,4 +7,5 @@ Data una lista della spesa, stampare sulla pagina (anche brutalmente, basta che 
 1. inserisco un array con i prodotti presenti nella lista
 2. inizializzo il contatore
 3. con un ciclo while stampo l'elemento con indice contatore
-4. esco dal ciclo una volta stampata tutta la lista
+4. incremento il contatore
+5. una volta raggiunta la lunghezza dell'array, il ciclo si interrompe
