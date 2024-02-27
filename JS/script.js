@@ -9,10 +9,16 @@ const lista = [
     'birra'
     ];
 
+    const btn = document.querySelector('.btn');
     let counter = 0;
-    console.log(lista[counter]);
     
-    while(counter < lista.length -1){
-        counter++;
-        console.log(lista[counter]);
-    }
+    btn.addEventListener('click', function(){
+        const ul = document.querySelector('.list');
+
+        while(counter < lista.length){
+            
+            ul.innerHTML += `<li>${lista[counter++]}</li>`
+            
+            
+        }
+    })
